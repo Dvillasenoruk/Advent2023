@@ -45,7 +45,7 @@ def AlphaNumerics (line):
 
 runningTotal = 0
 
-for line in open("input.txt.txt"):
+for line in open("input.txt"):
     lineTotal =  AlphaNumerics(line)
     runningTotal = runningTotal + lineTotal
  
